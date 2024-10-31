@@ -1,0 +1,139 @@
+*{margin: 0;
+    box-sizing: border-box;
+    }
+    #header{
+        
+        width: 100%;
+        height: 70px;
+    }
+   
+ body{
+  background: linear-gradient(10deg,#27374D,#526D82,#9DB2BF,#DDE6ED);
+ }
+
+
+
+ #header_div{
+   border-radius: 50px;
+   height: 70px;
+   width: 80%;
+   background-color: #2b4870;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    justify-content: space-around;
+    font-size: 10px;
+    margin-top: 30px;
+margin-left: 170px;
+ }
+
+
+ .margin{
+   transition: 0.5s ease-in-out;
+    margin-top: 25px;
+    
+ }
+ .margin:hover{
+   color: #000;
+   font-size: 12.5px;
+ }
+ .margin::after
+ {
+   color: #000;
+   font-size: 12.5px;
+ }
+
+ .a{
+    text-decoration: none;
+    color:#34588b;}
+    .COLLOR{
+      font-size: 80px;
+      color: hsl(120, 76%, 8%);
+    }
+    #tamanho{
+      margin-bottom: 200px;
+
+    }
+    #eu{
+      
+      text-align: center;
+      color: hsl(120, 76%, 8%);
+      opacity: 70%;
+      font-size: 50px;
+      
+    }
+    .animated{
+      color: aliceblue;
+    }
+    #animated{
+      color: hsl(120, 76%, 8%) ;
+      text-align: center;
+      font-size: 40px;
+    }
+    #Lorem{
+      margin-top: 150px;
+      margin-bottom: 200px;
+      text-align: center;
+      color: hsl(120, 76%, 8%) ;
+    }
+    #SOBRE{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+text-align: center;
+    }
+    .a2{
+      text-decoration: none;
+      color:#34588b;}
+      .margin2{
+        transition: 0.5s ease-in-out;
+         margin-top: 25px;
+         
+      }
+      .margin2:hover{
+        color: #000;
+        font-size: 12.5px;
+      }
+      .margin2::after
+      {
+        color: #000;
+        font-size: 12.5px;
+      }
+
+
+
+    .SOBRE{
+      border-radius: 50px;
+      height: 200px;
+      width: 29%;
+      background-color: #2b4870;
+       display: flex;
+       flex-direction: row;
+       color: #34588b;
+       font-size: 10px;
+       
+    }
+    .h1{
+      margin-bottom: 20px;
+    }
+    #projetos{ margin-left: 40px;
+      margin-top: 160px;
+      font-size: 40px;
+      margin-bottom: 10pc;
+    }
+    #projetos_div{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+    }
+.projetos{
+  border-radius: 50px;
+      height: 200px;
+      width: 40%;
+      background-color: #2b4870;
+margin-bottom: 10pc;
+       color: #34588b;
+       font-size: 10px;
+       
+}
