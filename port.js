@@ -57,3 +57,34 @@ const darkModeButton = document.querySelector('#dark-mode-button');
 darkModeButton.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
 });
+
+
+
+
+// Animação ao rolar: Slide-in
+const slideInElements = document.querySelectorAll(".animate-on-scroll.slide-in");
+
+window.addEventListener("scroll", () => {
+  slideInElements.forEach((element) => {
+    const rect = element.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      element.classList.add("scroll-reveal");
+    } else {
+      element.classList.remove("scroll-reveal");
+    }
+  });
+});
+
+// Animação ao rolar: Zoom-in
+const zoomInElements = document.querySelectorAll(".animate-on-scroll.zoom-in");
+
+window.addEventListener("scroll", () => {
+  zoomInElements.forEach((element) => {
+    const rect = element.getBoundingClientRect();
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      element.classList.add("scroll-reveal");
+    } else {
+      element.classList.remove("scroll-reveal");
+    }
+  });
+});
