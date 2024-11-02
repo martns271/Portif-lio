@@ -237,7 +237,7 @@ flex-wrap: wrap;
 /* CSS */
 .carrossel-habilidades {
   position: relative;
-  width: 800px;
+  width: 900px;
   height: 600px;
   margin: 40px auto;
   overflow: hidden;
@@ -321,6 +321,30 @@ flex-wrap: wrap;
   cursor: pointer;
 }
 
+#contato button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+/* Animação ao rolar: Slide-in */
+.animate-on-scroll.slide-in {
+  transform: translateY(100px);
+  transition: transform 1s ease-in-out;
+}
+
+.animate-on-scroll.slide-in.scroll-reveal {
+  transform: translateY(0);
+}
+
+/* Animação ao rolar: Zoom-in */
+.animate-on-scroll.zoom-in {
+  transform: scale(0.5);
+  transition: transform 1s ease-in-out;
+}
+
+.animate-on-scroll.zoom-in.scroll-reveal {
+  transform: scale(1);
+}
 #contato button[type="submit"]:hover {
   background-color: #3e8e41;
 }
